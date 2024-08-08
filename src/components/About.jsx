@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className="w-[50%]">
             <p className='font-medium text-black text-[26px] leading-[38px]'>
-                Born in <a href="https://www.google.com/search?q=Assam" target="_blank" rel="noopener noreferrer">Assam</a>, and currently thriving in <a href="https://www.google.com/search?q=Bengaluru" target="_blank" rel="noopener noreferrer" className='underline'>Bengaluru</a>. I am a sophomore at <a href="https://www.scaler.com/school-of-technology/" target="_blank" rel="noopener noreferrer" className='underline'>Scaler School of Technology</a>, with 1+ years of experience as a <span className='underline'>developer</span>.
+                Born in <a href="https://www.google.com/search?q=Assam" target="_blank" rel="noopener noreferrer">Assam</a>, and currently thriving in <a href="https://www.google.com/search?q=Bengaluru" target="_blank" rel="noopener noreferrer" className='underline'>Bengaluru</a>. I'm a sophomore at <a href="https://www.scaler.com/school-of-technology/" target="_blank" rel="noopener noreferrer" className='underline'>Scaler School of Technology</a>, with 1+ years of experience as a <span className='underline'>developer</span>.
             </p>
             <p className='font-medium text-black text-[26px] leading-[38px] mt-6'>
                 I enjoy creating impactful digital experiences and incorporating <span className='underline'>design</span> into my work. My focus is on making digital experiences that resonate with users and create lasting impressions.
@@ -24,7 +24,7 @@ const About = () => {
       </div>
       <div className="flex flex-col flex-grow items-center">
         <p className="text-center text-[20px] font-medium text-[#767676] leading-[28px]">
-            Technical Skills & Frameworks
+            Technical Skills & Frameworks:
         </p>
         <div className='flex-grow flex items-center justify-between w-[70%]'>
             <FaJava className='text-5xl'/>
