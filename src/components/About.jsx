@@ -10,7 +10,7 @@ const About = () => {
       <div className="h-[60vh] flex justify-center items-center p-14">
         <div className="flex w-[75%] justify-between">
           <div className="w-[40%]">
-            Hi
+            <img src="" alt="profileImage" />
           </div>
           <div className="w-[50%]">
             <p className='font-medium text-black text-[26px] leading-[38px]'>
@@ -18,7 +18,7 @@ const About = () => {
             </p>
             <p className='font-medium text-black text-[26px] leading-[38px] mt-6'>
                 I enjoy creating impactful digital experiences and incorporating <span className='underline'>design</span> into my work. My focus is on making digital experiences that resonate with users and create lasting impressions.
-            </p>  
+            </p>
           </div>
         </div>
       </div>

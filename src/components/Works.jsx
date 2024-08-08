@@ -8,7 +8,7 @@ const Works = () => {
                 Projects
             </h1>
 
-            <div className="flex h-[50vh] w-[50vw] p-8 mt-12 border border-[#E5E5E5] rounded-3xl shadow-lg">
+            <div className="group flex h-[50vh] w-[50vw] p-8 mt-12 border border-[#E5E5E5] rounded-3xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:rotate-1">
                 <div className="flex-1 flex flex-col">
                     <div>
                         <h1 className='text-[26px]'>broiscooked.com</h1>
@@ -20,7 +20,7 @@ const Works = () => {
                         </p>
                     </div>
                     <div>
-                        <button className='border rounded-full border-zinc-400 p-2'>
+                        <button className='border rounded-full border-zinc-400 p-2 hover:bg-[#d3edfe] transition-colors duration-300'>
                             Visit website ↗
                         </button>
                         <button className='ml-5'>
@@ -33,7 +33,7 @@ const Works = () => {
                 </div>
             </div>
 
-            <div className="flex h-[50vh] w-[50vw] p-8 mt-12 border border-[#E5E5E5] rounded-3xl shadow-lg">
+            <div className="group flex h-[50vh] w-[50vw] p-8 mt-12 border border-[#E5E5E5] rounded-3xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:rotate-1">
                 <div className="flex-1 flex flex-col">
                     <div>
                         <h1 className='text-[26px]'>Coming soon</h1>
@@ -45,7 +45,7 @@ const Works = () => {
                         </p>
                     </div>
                     <div>
-                        <button className='border rounded-full border-zinc-400 p-2'>
+                        <button className='border rounded-full border-zinc-400 p-2 hover:bg-[#E6CFFF] transition-colors duration-300'>
                             Visit website ↗
                         </button>
                         <button className='ml-5'>
@@ -58,7 +58,7 @@ const Works = () => {
                 </div>
             </div>
 
-            <div className="flex h-[50vh] w-[50vw] p-8 mt-12 border border-[#E5E5E5] rounded-3xl shadow-lg">
+            <div className="group flex h-[50vh] w-[50vw] p-8 mt-12 border border-[#E5E5E5] rounded-3xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:rotate-1">
                 <div className="flex-1 flex flex-col">
                     <div>
                         <h1 className='text-[26px]'>Coming soon</h1>
@@ -70,7 +70,7 @@ const Works = () => {
                         </p>
                     </div>
                     <div>
-                        <button className='border rounded-full border-zinc-400 p-2'>
+                        <button className='border rounded-full border-zinc-400 p-2 hover:bg-[#E5F06E] transition-colors duration-300'>
                             Visit website ↗
                         </button>
                         <button className='ml-5'>
@@ -82,6 +82,7 @@ const Works = () => {
                     <img src="" alt="image" />
                 </div>
             </div>
+
             <a href='' className='flex font-medium text-black text-[26px] m-12'>
                 <h2 className='underline'>View Practice Projects</h2>
                 <h2>&nbsp;↗</h2>
