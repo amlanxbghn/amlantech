@@ -27,17 +27,17 @@ const About = () => {
             Technical Skills & Frameworks:
         </p>
         <div className='flex-grow flex items-center justify-between w-[70%]'>
-            <FaJava className='text-5xl'/>
-            <SiJavascript className='text-5xl'/>
-            <FaLinux className='text-5xl'/>
-            <BiLogoMongodb className='text-5xl'/>
-            <SiExpress className='text-5xl'/>
-            <FaReact className='text-5xl'/>
-            <FaNode className='text-5xl'/>
-            <SiTailwindcss className='text-5xl'/>
-            <RiNextjsLine className='text-5xl'/>
-            <FaGitAlt className='text-5xl'/>
-            <SiMysql className='text-5xl'/>
+            <FaJava className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <SiJavascript className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <FaLinux className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <BiLogoMongodb className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <SiExpress className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <FaReact className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <FaNode className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <SiTailwindcss className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <RiNextjsLine className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <FaGitAlt className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <SiMysql className='text-5xl transition-transform duration-300 hover:scale-125'/>
         </div>
       </div>
     </div>
