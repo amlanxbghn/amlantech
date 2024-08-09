@@ -16,13 +16,13 @@ const About = () => {
                 <div className="m-3 h-[75%] bg-zinc-600">
                     <img src={myImage} alt="description" className="h-full w-full object-cover" />
                 </div>
-                <p className='text-center text-xl font-caveat'>December 2023, Pondicherry</p>
+                <p className='text-center text-xl text-[#767676] font-caveat'>December 2023, Pondicherry.</p>
             </div>
           </div>
 
           <div className="w-[50%]">
             <p className='font-medium text-black text-[26px] leading-[38px]'>
-                Born in <a href="https://www.google.com/search?q=Assam" target="_blank" rel="noopener noreferrer">Assam</a>, and currently thriving in <a href="https://www.google.com/search?q=Bengaluru" target="_blank" rel="noopener noreferrer" className='underline'>Bengaluru</a>. I'm a sophomore at <a href="https://www.scaler.com/school-of-technology/" target="_blank" rel="noopener noreferrer" className='underline'>Scaler School of Technology</a>, with 1+ years of experience as a <span className='underline'>developer</span>.
+                Born in <a href="https://www.google.com/search?q=Assam" target="_blank" rel="noopener noreferrer">Assam</a>, and currently thriving in <a href="https://www.google.com/search?q=Bengaluru" target="_blank" rel="noopener noreferrer" className='underline'>Bengaluru</a>. I'm a sophomore at <a href="https://www.scaler.com/school-of-technology/" target="_blank" rel="noopener noreferrer" className='underline'>Scaler School of Technology</a> with 1+ years of experience as a <span className='underline'>developer</span>.
             </p>
             <p className='font-medium text-black text-[26px] leading-[38px] mt-6'>
                 I enjoy creating impactful digital experiences and incorporating <span className='underline'>design</span> into my work. My focus is on making digital experiences that resonate with users and create lasting impressions.

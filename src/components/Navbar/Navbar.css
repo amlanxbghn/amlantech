@@ -1,0 +1,39 @@
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.links h4 {
+    padding: 8px 20px;
+    border: 1px solid rgb(161 161 170);
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.links h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+.links h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+.links h4 a {
+    position: relative;
+    z-index: 10;
+}
+
+.links h4:hover a {
+    color: #fff;
+}
