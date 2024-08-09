@@ -3,15 +3,23 @@ import { BiLogoMongodb } from 'react-icons/bi';
 import { FaGitAlt, FaHtml5, FaJava, FaLinux, FaNode, FaReact } from 'react-icons/fa';
 import { RiNextjsLine } from 'react-icons/ri';
 import { SiExpress, SiJavascript, SiMysql, SiSpringboot, SiTailwindcss } from 'react-icons/si';
+import myImage from '../assets/profilepic.jpg';
 
 const About = () => {
   return (
     <div className="flex flex-col min-h-screen p-24">
       <div className="h-[60vh] flex justify-center items-center p-14">
         <div className="flex w-[75%] justify-between">
+          
           <div className="w-[40%]">
-            <img src="" alt="profileImage" />
+            <div className="h-[90%] w-[65%] mx-auto transform border border-[#E5E5E5] shadow-lg" style={{ transform: "rotate(-5deg)" }}>
+                <div className="m-3 h-[75%] bg-zinc-600">
+                    <img src={myImage} alt="description" className="h-full w-full object-cover" />
+                </div>
+                <p className='text-center text-xl font-caveat'>December 2023, Pondicherry</p>
+            </div>
           </div>
+
           <div className="w-[50%]">
             <p className='font-medium text-black text-[26px] leading-[38px]'>
                 Born in <a href="https://www.google.com/search?q=Assam" target="_blank" rel="noopener noreferrer">Assam</a>, and currently thriving in <a href="https://www.google.com/search?q=Bengaluru" target="_blank" rel="noopener noreferrer" className='underline'>Bengaluru</a>. I'm a sophomore at <a href="https://www.scaler.com/school-of-technology/" target="_blank" rel="noopener noreferrer" className='underline'>Scaler School of Technology</a>, with 1+ years of experience as a <span className='underline'>developer</span>.

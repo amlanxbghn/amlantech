@@ -8,6 +8,10 @@ export default {
     extend: {
       fontFamily: {
         'inter-tight': ['"Inter Tight"', 'sans-serif'],
+        'caveat': ['"Caveat"', 'cursive'],
+      },
+      scale: {
+        '120': '1.20',
       },
     },
   },
