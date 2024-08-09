@@ -3,7 +3,8 @@ import { BiLogoMongodb } from 'react-icons/bi';
 import { FaGitAlt, FaHtml5, FaJava, FaLinux, FaNode, FaReact } from 'react-icons/fa';
 import { RiNextjsLine } from 'react-icons/ri';
 import { SiExpress, SiJavascript, SiMysql, SiSpringboot, SiTailwindcss } from 'react-icons/si';
-import myImage from '../assets/profilepic.jpg';
+import myImage from '../../assets/profilepic.jpg';
+import './About.css';
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
         <div className="flex w-[75%] justify-between">
           
           <div className="w-[40%]">
+          <div className="emoji absolute text-5xl">&#128075;</div>
             <div className="h-[90%] w-[65%] mx-auto transform border border-[#E5E5E5] shadow-lg" style={{ transform: "rotate(-5deg)" }}>
                 <div className="m-3 h-[75%] bg-zinc-600">
                     <img src={myImage} alt="description" className="h-full w-full object-cover" />
