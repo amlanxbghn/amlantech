@@ -20,7 +20,7 @@ const Works = () => {
                         </p>
                     </div>
                     <div>
-                        <button className='border rounded-full border-zinc-400 p-2 hover:bg-[#d3edfe] transition-colors duration-300'>
+                        <button className='border rounded-full border-zinc-400 p-2 hover:bg-[#E5F06E] transition-colors duration-300'>
                             Visit website ↗
                         </button>
                         <button className='ml-5 transition-tranform hover:scale-120 duration-300'>
@@ -45,7 +45,7 @@ const Works = () => {
                         </p>
                     </div>
                     <div>
-                        <button className='border rounded-full border-zinc-400 p-2 hover:bg-[#E6CFFF] transition-colors duration-300'>
+                        <button className='border rounded-full border-zinc-400 p-2 hover:bg-[#E5F06E] transition-colors duration-300'>
                             Visit website ↗
                         </button>
                         <button className='ml-5 transition-tranform hover:scale-120 duration-300'>

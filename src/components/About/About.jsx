@@ -18,7 +18,7 @@ const About = () => {
                 <div className="m-3 h-[75%] bg-zinc-600">
                     <img src={myImage} alt="description" className="h-full w-full object-cover" />
                 </div>
-                <p className='text-center text-xl text-[#767676] font-caveat'>December 2023, Pondicherry.</p>
+                <p className='text-center text-xl text-[#767676] font-caveat'>December 2023, Pondicherry</p>
             </div>
           </div>
 
