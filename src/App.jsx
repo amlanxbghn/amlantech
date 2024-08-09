@@ -4,15 +4,17 @@ import About from './components/About/About';
 import Works from './components/Works';
 import Connect from './components/Connect';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <Navbar/>
-      {/* <Home /> */}
+      <Home />
       <About />
       <Works />
-      {/* <Connect /> */}
+      <Connect />
+      <Footer/>
     </div>
   );
 }

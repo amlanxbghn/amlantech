@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiLogoMongodb } from 'react-icons/bi';
-import { FaGitAlt, FaHtml5, FaJava, FaLinux, FaNode, FaReact } from 'react-icons/fa';
+import { FaGitAlt, FaHtml5, FaJava, FaLinux, FaNode, FaPython, FaReact } from 'react-icons/fa';
 import { RiNextjsLine } from 'react-icons/ri';
 import { SiExpress, SiJavascript, SiMysql, SiSpringboot, SiTailwindcss } from 'react-icons/si';
 import myImage from '../../assets/profilepic.jpg';
@@ -8,7 +8,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className="flex flex-col min-h-screen p-24">
+    <div className="flex flex-col min-h-screen pb-24 mx-16">
       <div className="h-[60vh] flex justify-center items-center p-14">
         <div className="flex w-[75%] justify-between">
           
@@ -37,17 +37,17 @@ const About = () => {
             Technical Skills & Frameworks:
         </p>
         <div className='flex-grow flex items-center justify-between w-[70%]'>
-            <FaJava className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <SiJavascript className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <FaLinux className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <BiLogoMongodb className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <SiExpress className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <FaReact className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <FaNode className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <SiTailwindcss className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <RiNextjsLine className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <FaGitAlt className='text-5xl transition-transform duration-300 hover:scale-125'/>
-            <SiMysql className='text-5xl transition-transform duration-300 hover:scale-125'/>
+            <FaJava className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <SiJavascript className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <FaLinux className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <BiLogoMongodb className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <SiExpress className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <FaReact className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <FaNode className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <SiTailwindcss className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <RiNextjsLine className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <FaGitAlt className='text-6xl transition-transform duration-300 hover:scale-125'/>
+            <SiMysql className='text-6xl transition-transform duration-300 hover:scale-125'/>
         </div>
       </div>
     </div>

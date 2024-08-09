@@ -4,13 +4,6 @@
     transition: all ease 0.4s;
 }
 
-.emoji:hover {
-    font-size: 3.5rem;
-    transition: all ease 0.4s;
-
-}
-
-
 @keyframes waving-hand {
     0% {
         transform: rotate(0deg);

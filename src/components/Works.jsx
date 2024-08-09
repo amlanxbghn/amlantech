@@ -82,13 +82,14 @@ const Works = () => {
                     <img src="" alt="image" />
                 </div>
             </div>
-
-            <a href='' className='flex font-medium text-black text-[26px] m-12  transition-tranform hover:scale-105 duration-300'>
-                <h2 className='underline'>
-                    View Practice Projects
-                </h2>
-                <h2>&nbsp;↗</h2>
-            </a>
+            
+            <div className='w-[50vw]'>
+                <a href='' className='flex font-medium text-[#767676] text-[26px] pt-5 m-2 mt-6 transition-colors hover:text-black'>
+                    <h2 className='underline'>View Practice Projects</h2>
+                    <h2>&nbsp;↗</h2>
+                </a>
+            </div>
+            
         </div>
     );
 };
